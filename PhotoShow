@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Photo Gallery</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 20px 0;
+      font-size: 36px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 20px;
+      color: #7f5af0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a.back-link:hover {
+      color: #00f7ff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Photo Gallery
+  </header>
+
+  <div class="gallery">
+    <img src="images/3col.jpg" alt="Photo 1">
+    <img src="images/4col.jpg" alt="Photo 2">
+    <img src="images/5col.jpg" alt="Photo 3">
+    <img src="images/6col.jpg" alt="Photo 4">
+    <!-- Add more images like above -->
+  </div>
+
+  <a class="back-link" href="nextpage.html">← Back to Home</a>
+
+</body>
+</html>
