@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+  <title>Table</title>
+  <meta name="description" content="leaming table in html">
+  <meta name="keywords" content="HTML, CSS, table,arena">
+  <meta name="author" content="Karan">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <style>
+    body {
+      background: url(images/black.jpg);
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      color: #00ffcc;
+      text-align: center;
+      height: 200px;
+      font-size: 50px;
+      box-sizing: border-box;
+      padding: 20px;
+      text-transform: uppercase;
+      background: #222;
+      letter-spacing: 2px;
+    }
+
+    main table {
+      width: 100%;
+      background: #1e1e2f;
+      font-size: 25px;
+      border-collapse: collapse;
+      transition: 0.5s;
+      color: white;
+    }
+
+    main table caption {
+      font-size: 30px;
+      color: #00ffff;
+      margin-bottom: 10px;
+    }
+
+    main table tr {
+      transition: 1.5s;
+    }
+
+    main table tr:hover {
+      background: #3333ff;
+      color: white;
+      cursor: pointer;
+    }
+
+    main table th {
+      background-color: #444;
+      color: #00ffcc;
+      padding: 10px;
+    }
+
+    main table tr td {
+      padding: 10px;
+      transition: 1.5s;
+    }
+
+    main table tr td:hover {
+      background: #000000;
+      color: #00ffcc;
+    }
+
+    li a {
+      color: #00ffff;
+      text-decoration: none;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body class="animate__animated animate__fadeInDown">
+  <header class="animate__animated animate__flip">
+  <span style="float: left; font-size: 20px;">
+    <li><a href="nextpage.html">⬅Back</a></li>
+  </span>
+  Table in HTML
+</header>
+  <nav></nav>
+
+  <main>
+
+    <table border="1" cellpadding="10" cellspacing="2">
+      <caption>Mark-List</caption>
+      <tr><th colspan="6">10th Class</th></tr>
+      <tr><th>Roll No</th><th>Name</th><th>Maths</th><th>English</th><th>Science</th><th>Computer</th></tr>
+      <tr><td>1001</td><td>Rohan</td><td>50</td><td>76</td><td>45</td><td>56</td></tr>
+      <tr><td>1002</td><td>Rahul</td><td>70</td><td>76</td><td>76</td><td>87</td></tr>
+      <tr><td>1003</td><td>Rakesh</td><td>44</td><td>45</td><td>88</td><td>98</td></tr>
+      <tr><td>1004</td><td>Ram</td><td>56</td><td>78</td><td>86</td><td>45</td></tr>
+      <tr><td>1005</td><td>Rahim</td><td>45</td><td>78</td><td>76</td><td>76</td></tr>
+      <tr><td>1006</td><td>Reena</td><td>67</td><td>78</td><td>98</td><td>78</td></tr>
+    </table>
+  </main>
+</body>
+</html>
