@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    header{
+        text-align:center;
+        font: size 30px;font-family:Arial, Helvetica, sans-serif black;
+        text-transform:uppercase;
+        text-shadow:5px 5px 5px gray;
+    }
+    main
+    {
+        text-align-center;
+        width:40%;
+        margin:auto;
+    }
+    table
+    {
+        text-align:center;
+        width:95%;
+        margin:20px;
+        padding:20px;
+        border: radius 10px;
+        box-shadow:0px 5px 10px gray;
+    }
+    input,reset{
+        width:100%;
+    }
+    input:valid
+    {
+        border-color:green;
+    }
+    input:invalid
+    {
+        border-color: rgb(232, 25, 25);
+    }
+    input:invalid + span::before
+    {
+        content: "✗";
+        color:red;
+    }
+    input:valid + span::before
+    {
+        content: "✓";
+        color:green;
+    }
+    input:focus
+    {
+        border-color:rgb(110, 17, 172);
+        border-width: 3px;
+    }
+
+    
+</style>
+<body>
+    <header>
+        Login Form in HTLM
+    </header>
+    <main>
+    <table border="0" cellpadding="5">
+        <caption>Login</caption>
+        <form action="http:tataplay.com/login.php" method="post">
+            <tr>
+                <td><label for="loginid">Login id</label></td>
+                <td>
+                    <input id="loginid" type="text" placeholder="Type login id..." required
+                    title="Type yout login id...."><span></span></td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="upass" >Password</label>
+                    </td>
+                <td>
+                    <input id="upasss" placeholder="Type password in caps " type="password" title="type passworde here" required>
+    </table>    
+</body>
+</html>
