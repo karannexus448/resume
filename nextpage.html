@@ -1,1 +1,118 @@
-html> <html> <head> <title>Woow</title> <style> body { margin: 0; padding: 0; background-color: #f0f0f0; font-family: 'Segoe UI', sans-serif; background-image: url('images/background.jpg'); } header { background-color: #f8f8ff; color: #100c08; text-align: center; padding: 5px 0; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); } header h1 { margin: 0; text-align: right; padding: 10px; font-size: 15px; } .menu-box { background-color: #f8f8ff; color: #100c08; width: 70%; margin: 30px auto; padding: 20px; box-shadow: 10px 10px 20px gray; border-radius: 10px; } .menu-box h2 { font-size: 36px; margin-bottom: 20px; text-transform: uppercase; } ul { list-style-type: none; padding: 0; } li { font-size: 24px; margin: 10px 0; } a { color: #7f5af0; text-decoration: none; font-weight: bold; } a:hover { color: #00f7ff; text-decoration: underline; background:black; transition:0.7s; } </style> </head> <body> <header> <h1> My Practice Work</h1> <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 20px;"> <img src="images/logo.png" alt="Logo" style="height: 30px;"> <!-- chhota aur left aligned --> </div> </header> <div class="menu-box"> <h2>Menu</h2> <ul> <li><a href="index.html">Home</a></li> <li><a href="PhotoShow.html">Photo Gallery</a></li> <li><a href="#">Form in HTML</a></li> <li><a href="Table.html">Table</a></li> <li><a href="Banner.html">Banner</a></li> <li><a href="Login.html">Login</a></li> <li><a href="Register">Register</a></li> <li><a href="drawing.html">drawing</a></li> </ul> </div> </body> </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Woow</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('images/background.jpg');
+    }
+
+    header {
+      background-color: #f8f8ff;
+      color: #100c08;
+      text-align: center;
+      padding: 5px 0;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    header h1 {
+      margin: 0;
+      text-align: right;
+      padding: 10px;
+      font-size: 15px;
+    }
+
+    
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 30px;
+    }
+
+    .menu-box {
+      background-color: #f8f8ff;
+      color: #100c08;
+      width: 40%;
+      padding: 20px;
+      box-shadow: 10px 10px 20px gray;
+      border-radius: 10px;
+    }
+
+    .menu-box h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+
+    a {
+      color: #7f5af0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: #00f7ff;
+      text-decoration: underline;
+      background: black;
+      transition: 0.7s;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1> My Practice Work</h1>
+    <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 20px;">
+      <img src="images/logo.png" alt="Logo" style="height: 30px;">
+    </div>
+  </header>
+
+  <div class="container">
+
+   
+    <div class="menu-box">
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="PhotoShow.html">Photo Gallery</a></li>
+        <li><a href="#">Form in HTML</a></li>
+        <li><a href="Table.html">Table</a></li>
+        <li><a href="Banner.html">Banner</a></li>
+        <li><a href="Login.html">Login</a></li>
+        <li><a href="Register.html">Register</a></li>
+        <li><a href="drawing.html">Drawing</a></li>
+      </ul>
+    </div>
+
+   
+    <div class="menu-box">
+      <h2>Bootstrap</h2>
+      <ul>
+        <li><a href="#">Bootstrap Buttons</a></li>
+        <li><a href="#">Bootstrap Grid</a></li>
+        <li><a href="#">Bootstrap Cards</a></li>
+        <li><a href="#">Bootstrap Navbar</a></li>
+        <li><a href="#">Bootstrap Forms</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
